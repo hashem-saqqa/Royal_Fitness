@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:title="القائمة الرئيسية" />
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/ic_user"
+        android:title="حسابي" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/ic_location"
+        android:title="الموقع" />
+    <item
+        android:id="@+id/navigation_notificationo"
+        android:icon="@drawable/ic_mm"
+        android:title="الاشعارات" />
+    <item
+        android:id="@+id/navigation_notification"
+        android:icon="@drawable/ic_power"
+        android:title="تسجيل الخروج" />
+
+</menu>

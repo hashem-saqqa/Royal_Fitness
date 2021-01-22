@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#363236"
+    tools:context=".createacount">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="411dp"
+        android:layout_height="734dp"
+        android:background="#363236"
+        android:backgroundTint="#363236"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666"
+
+        app:srcCompat="@drawable/login"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="287dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginRight="34dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/colorPink"
+        android:onClick="create"
+        android:text="انشاء اشتراك"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="95dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginRight="95dp"
+        android:layout_marginBottom="30dp"
+        android:text="ادخل البيانات التالية"
+        android:textColor="#000000"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="159dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="194dp"
+        android:layout_marginLeft="194dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginBottom="600dp"
+        android:ems="10"
+        android:hint="الاسم الاول"
+        android:inputType="textPersonName"
+        android:singleLine="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="0.941"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText15"
+        android:layout_width="159dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:hint="رقم الجوال"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editText5"
+        app:layout_constraintTop_toBottomOf="@+id/editText5"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="153dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:ems="10"
+        android:hint="اسم العائلة"
+        app:layout_constraintEnd_toStartOf="@+id/editText5"
+        app:layout_constraintTop_toTopOf="@+id/editText5"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText22"
+        android:layout_width="158dp"
+        android:layout_height="38dp"
+        android:ems="10"
+        android:hint="العنوان"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editText7"
+        app:layout_constraintStart_toStartOf="@+id/editText7"
+        app:layout_constraintTop_toBottomOf="@+id/editText7"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText17"
+        android:layout_width="156dp"
+        android:layout_height="37dp"
+        android:ems="10"
+        android:hint="الجنس"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editText12"
+        app:layout_constraintStart_toStartOf="@+id/editText12"
+        app:layout_constraintTop_toBottomOf="@+id/editText12"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="157dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginLeft="196dp"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:hint="تاريخ الميلاد"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="@+id/editText18"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editText18"
+        app:layout_constraintTop_toBottomOf="@+id/editText18"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+
+        android:id="@+id/editText12"
+        android:layout_width="148dp"
+        android:layout_height="44dp"
+        android:ems="10"
+            android:hint="العمر"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/editText6"
+        app:layout_constraintStart_toStartOf="@+id/editText6"
+        app:layout_constraintTop_toBottomOf="@+id/editText6"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText20"
+        android:layout_width="156dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:hint="الوزن"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/editText17"
+        app:layout_constraintStart_toStartOf="@+id/editText17"
+        app:layout_constraintTop_toBottomOf="@+id/editText17"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText21"
+        android:layout_width="156dp"
+        android:layout_height="41dp"
+        android:ems="10"
+        android:hint="الطول"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/editText20"
+        app:layout_constraintStart_toStartOf="@+id/editText20"
+        app:layout_constraintTop_toBottomOf="@+id/editText20"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText18"
+        android:layout_width="164dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="26dp"
+        android:ems="10"
+        android:hint="البريد الالكتروني"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/editText21"
+        app:layout_constraintEnd_toEndOf="@+id/editText15"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editText15"
+        app:layout_constraintTop_toBottomOf="@+id/editText15"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText23"
+        android:layout_width="152dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="كلمة المرور"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/editText22"
+        app:layout_constraintStart_toStartOf="@+id/editText22"
+        app:layout_constraintTop_toBottomOf="@+id/editText22"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editText24"
+        android:layout_width="152dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="تاكيد كلمة المرور"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/editText21"
+        app:layout_constraintStart_toStartOf="@+id/editText21"
+        app:layout_constraintTop_toBottomOf="@+id/editText21"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="137dp"
+        android:layout_marginLeft="137dp"
+        android:layout_marginTop="564dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginRight="41dp"
+        android:text="أوافق على شروط التطبيق"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

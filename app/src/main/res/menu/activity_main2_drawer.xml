@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Communicate">
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/ic_home"
+                android:title="الصفحة الرئيسية" />
+            <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/ic_user"
+                android:title="حسابي" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_people"
+                android:title="المدرب" />
+
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_servers"
+                android:title="الخدمات" />
+
+            <item
+                android:id="@+id/nav_slideshow"
+                android:icon="@drawable/ic_eatt"
+                android:title="الحمية الغذائية" />
+
+            <item
+                android:id="@+id/nav_tools"
+                android:icon="@drawable/ic_addeat"
+                android:title="الوجبات المساندة" />
+
+            <item
+                android:id="@+id/nav_time"
+                android:icon="@drawable/ic_time"
+                android:title="مواعيد العمل" />
+            <item
+                android:id="@+id/nav_salary"
+                android:icon="@drawable/ic_mony"
+                android:title="رسوم الاشتراك " />
+
+            <item
+                android:id="@+id/nav_startec"
+                android:icon="@drawable/ic_star"
+                android:title="بدأ التمرين" />
+
+            <item
+                android:id="@+id/nav_Advertising"
+                android:icon="@drawable/ic_eee"
+                android:title="اعلانات" />
+            <item
+                android:id="@+id/nav_shareit"
+                android:icon="@drawable/ic_menu_share"
+                android:title="مشاركة التطبيق" />
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help"
+                android:title="المساعدة" />
+            <item
+                android:id="@+id/nav_call"
+                android:icon="@drawable/ic_phone"
+                android:title="اتصل بنا" />
+
+
+        </item>
+    </group>
+
+</menu>
